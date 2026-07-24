@@ -1,0 +1,84 @@
+{
+  "name": "persian-font-use",
+  "displayName": "Persian Font Use Skill",
+  "description": "AI skill for selecting and using Persian (Farsi) fonts in web/UI projects. Provides font database, selection guidance, licensing info, and framework integrations for 25+ Persian fonts.",
+  "version": "1.0.0",
+  "author": "opencode user",
+  "license": "MIT",
+  "repository": "https://github.com/YOUR_USERNAME/persian-font-use-skill",
+  "homepage": "https://github.com/YOUR_USERNAME/persian-font-use-skill",
+  "keywords": [
+    "persian",
+    "farsi",
+    "persian-fonts",
+    "typography",
+    "web-fonts",
+    "ui-design",
+    "font-selection",
+    "font-licensing",
+    "web-typography",
+    "persian-typography"
+  ],
+  "platforms": [
+    "claude-code",
+    "cursor",
+    "windsurf",
+    "vscode",
+    "copilot",
+    "adal",
+    "antigravity",
+    "kiro",
+    "qoder",
+    "trae",
+    "opencode"
+  ],
+  "categories": [
+    "design",
+    "typography",
+    "web-development",
+    "ui-design",
+    "localization"
+  ],
+  "entryPoints": {
+    "claude-code": ".claude/skills/persian-font-use",
+    "cursor": ".cursor/skills/persian-font-use",
+    "windsurf": ".windsurf/skills/persian-font-use",
+    "vscode": ".vscode/skills/persian-font-use",
+    "opencode": ".opencode/skill/persian-font-use",
+    "adal": ".adal/skills/persian-font-use",
+    "antigravity": ".agents/skills/persian-font-use"
+  },
+  "scripts": {
+    "search": "python3 scripts/search_fonts.py",
+    "generate": "python3 scripts/generate_font_system.py",
+    "validate": "python3 scripts/validate_data.py"
+  },
+  "dataFiles": [
+    "data/fonts.csv",
+    "data/categories.csv",
+    "data/licenses.csv",
+    "data/frameworks.csv"
+  ],
+  "templates": {
+    "claude-code": "templates/claude-code/",
+    "cursor": "templates/cursor/",
+    "windsurf": "templates/windsurf/",
+    "vscode": "templates/vscode/",
+    "opencode": "templates/opencode/",
+    "adal": "templates/adal/",
+    "antigravity": "templates/antigravity/"
+  },
+  "skillType": "knowledge",
+  "requiresInternet": false,
+  "supportedFrameworks": [
+    "nextjs",
+    "tailwind",
+    "vite",
+    "react",
+    "vue",
+    "react-native",
+    "flutter",
+    "html-css",
+    "fontsource"
+  ]
+}
