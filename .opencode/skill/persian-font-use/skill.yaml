@@ -1,0 +1,38 @@
+name: persian-font-use
+version: 1.0.0
+description: A skill for AI agents to select and use Persian fonts appropriately in web and UI projects. Provides comprehensive font reference data, selection guidance, licensing information, and usage examples for 25+ Persian fonts.
+author: opencode user
+license: MIT
+tags:
+  - persian
+  - persian-fonts
+  - typography
+  - web-fonts
+  - ui-design
+  - persian-typography
+  - farsi-fonts
+  - font-selection
+  - font-licensing
+  - web-typography
+keywords:
+  - persian
+  - farsi
+  - farsi-fonts
+  - persian-typography
+  - web-typography
+  - font-selection
+  - font-licensing
+  - ui-fonts
+  - persian-ui
+  - farsi-ui
+references:
+  - references/fonts.yaml
+  - references/licensing.yaml
+guides:
+  - guides/selection-guide.md
+  - guides/licensing.md
+examples:
+  - examples/web-fonts.css
+  - examples/tailwind-config.js
+  - examples/nextjs-font-setup.js
+  - examples/font-selection-guide.md
