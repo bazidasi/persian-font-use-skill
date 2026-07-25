@@ -50,13 +50,11 @@
   },
   "scripts": {
     "search": "python3 scripts/search_fonts.py",
-    "generate": "python3 scripts/generate_font_system.py",
     "validate": "python3 scripts/validate_data.py"
   },
   "dataFiles": [
     "data/fonts.csv",
-    "data/categories.csv",
-    "data/licenses.csv",
+    "data/licensing.csv",
     "data/frameworks.csv"
   ],
   "templates": {

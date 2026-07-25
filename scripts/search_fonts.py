@@ -184,7 +184,7 @@ def format_design_system(font: Font, project_name: str = "MyProject") -> str:
 ║  {'  • ' + chr(10).join('  • '.join(font.best_for.split(';'))).ljust(60)} ║
 ║                                                                              ║
 ║  FONT STACKS:                                                                ║
-║  UI/Body:    '{font.css_name}', {font.sources_google_fonts.split('/')[-2] if font.sources_google_fonts else 'Sahel'}, system-ui, sans-serif║
+║  UI/Body:    '{font.css_name}', {font.css_name.lower().replace(' ', '-') if font.variable_font else ('Vazirmatn' if font.category == 'Sans-Serif' else 'Amiri')}, system-ui, sans-serif║
 ║  Heading:    '{font.css_name if font.category == 'Display' else 'Lalezar'}, {font.css_name}', sans-serif║
 ║  Reading:    'Amiri', 'Markazi Text', 'Noto Naskh Arabic', serif║
 ║  Bilingual:  '{font.css_name}', 'Estedad', 'Noto Sans Arabic', 'Roboto', sans-serif║

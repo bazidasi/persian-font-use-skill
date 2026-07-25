@@ -76,8 +76,8 @@ def validate_licensing_csv(data_dir: Path):
         return False
 
     required_fields = ['font_id', 'license_type', 'license_name', 'license_url',
-                       'commercial_free', 'modification_allowed', 'distribution_allowed',
-                       'sell_font_allowed', 'credit_required', 'notes']
+                       'commercial_use', 'modification', 'distribution',
+                       'sell_font', 'attribution_required', 'notes']
 
     errors = []
     with open(path, 'r', encoding='utf-8') as f:
@@ -87,7 +87,7 @@ def validate_licensing_csv(data_dir: Path):
                 if field not in row:
                     errors.append(f"Row {i}: Missing field '{field}'")
 
-            for field in ['commercial_free', 'modification_allowed', 'distribution_allowed', 'sell_font_allowed', 'credit_required']:
+            for field in ['commercial_use', 'modification', 'distribution', 'sell_font', 'attribution_required']:
                 val = row[field].lower()
                 if val not in ('true', 'false'):
                     errors.append(f"Row {i}: {field} must be 'true' or 'false'")

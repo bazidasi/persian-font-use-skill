@@ -32,7 +32,4 @@ guides:
   - guides/selection-guide.md
   - guides/licensing.md
 examples:
-  - examples/web-fonts.css
-  - examples/tailwind-config.js
-  - examples/nextjs-font-setup.js
-  - examples/font-selection-guide.md
+  - examples/usage-examples.md

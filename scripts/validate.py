@@ -5,6 +5,7 @@ Validate Persian Font Use Skill data files
 
 import csv
 import json
+import sys
 from pathlib import Path
 from typing import List, Dict, Any
 

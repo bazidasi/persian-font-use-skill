@@ -89,8 +89,7 @@ persian-font-use-skill/
     ├── skill.yaml                # OpenCode skill config
     ├── instructions.md           # Agent instructions
     ├── references/
-    │   ├── fonts.yaml            # Font database (YAML)
-    │   └── licensing.yaml        # License reference
+    │   └── fonts.yaml            # Font database (YAML)
     ├── guides/
     │   ├── selection-guide.md    # Decision trees
     │   └── licensing.md          # Compliance guide
@@ -324,4 +323,4 @@ Font licensing information is for reference only. **Always verify current terms 
 
 ---
 
-**Made for AI agents and developers working with Persian typography.** 🇮🇷
+**Made for AI agents and developers working with Persian typography.**

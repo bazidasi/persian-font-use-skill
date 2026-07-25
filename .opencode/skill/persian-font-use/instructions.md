@@ -15,7 +15,7 @@ When users ask about Persian/Farsi fonts for web/UI projects, use this skill to:
 
 Use this skill when users ask about:
 - "What Persian font should I use for my website/app?"
-- "How do I add Vazirmatn/Vazirmatn to my Next.js/Tailwind project?"
+- "How do I add Vazirmatn to my Next.js/Tailwind project?"
 - "What Persian fonts are free for commercial use?"
 - "How do I create a Persian font stack with fallbacks?"
 - "What's the best Persian font for UI / body text / headlines / calligraphy?"
@@ -46,10 +46,10 @@ Always reference these files when answering:
 ### UI / Body Text Alternatives
 | Font | Weights | Variable | License | Source |
 |------|---------|----------|---------|--------|
-| **Sahel** | 9 | Yes (VF) | OFL | GitHub/Rastikerdar |
+| **Sahel** | 3 + VF | Yes (VF) | OFL | GitHub/Rastikerdar |
 | **Estedad** | 9 | Yes (VF) | OFL | Google Fonts |
 | **Noto Sans Arabic** | 9 | Yes | OFL | Google Fonts |
-| **Baloo Bhaijaan 2** | 9 | Yes | OFL | Google Fonts |
+| **Baloo Bhaijaan 2** | 5 | Yes | OFL | Google Fonts |
 | **Vazirmatn** | 9 | Yes | OFL | Google Fonts |
 
 ### Headlines / Display
@@ -176,19 +176,17 @@ const vazirmatn = Vazirmatn({
 | Noto Naskh Arabic | OFL | ✅ Yes |
 | Noto Kufi Arabic | OFL | ✅ Yes |
 | Baloo Bhaijaan 2 | OFL | ✅ Yes |
-| Amiri | OFL | ✅ Yes |
-| Markazi Text | OFL | ✅ Yes |
 | Markazi Text | OFL | ✅ Yes |
 | IranNastaliq | Free | ✅ Yes* |
 | Gulzar | OFL | ✅ Yes |
-| Vazirmatn | OFL | ✅ Yes |
-| Sahel | OFL | ✅ Yes |
 | Samim | OFL | ✅ Yes (archived) |
 | Shabnam | OFL | ✅ Yes (archived) |
 | Tanha | OFL | ✅ Yes (archived) |
 | Gandom | OFL | ✅ Yes (archived) |
 | Parastoo | OFL | ✅ Yes |
+| Iranian Sans | OFL | ✅ Yes |
 | IRANSans/IRANSansX | Commercial | ❌ No (paid) |
+| Tahrir | Commercial | ❌ No (paid) |
 | B Nazanin | Personal | ⚠️ Personal only |
 | B Lotus | Personal | ⚠️ Personal only |
 | B Titr | Personal | ⚠️ Personal only |
